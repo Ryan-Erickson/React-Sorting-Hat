@@ -3,6 +3,7 @@ import './Sorting.css';
 import arrow from '../../img/right-arrow.png';
 import dict from '../../google-10000-english';
 import Result from '../Result/Result';
+
 class Sorting extends React.Component {
   constructor(props){
     super(props);

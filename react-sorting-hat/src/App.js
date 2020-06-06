@@ -35,3 +35,11 @@ class App extends Component {
       this.state.loading ? <Loading /> :
       this.state.sorting ? <Sorting /> :
       <div>
+        <div className='logo'></div>
+        <Speech index={this.state.speechIndex} handleChange={this.handleSpeechChange} handleSkip={this.handleSkipSpeech}/>
+        <div className='signature'></div>
+      </div>
+    );
+  }
+}
+export default App;
